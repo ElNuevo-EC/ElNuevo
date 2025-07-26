@@ -1,12 +1,4 @@
-# ElNuevo
-// File: SRIApp.jsx
 
-import React from "react";
-import { Button } from "@/components/ui/button";
-
-export default function SRIApp() {
-  return (
-    <div className="bg-gray-950 text-white min-h-screen p-6 font-sans">
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-blue-400">SRI by El Neuvo</h1>
         <p className="mt-2 text-lg text-gray-300">
@@ -58,7 +50,6 @@ export default function SRIApp() {
     </div>
   );
 }
-
 function Feature({ title, desc }) {
   return (
     <div className="bg-gray-900 p-6 rounded-xl shadow-md">
